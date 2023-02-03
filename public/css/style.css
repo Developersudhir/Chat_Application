@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+nav {
+    background-color: #b1a5f3;
+    padding: 0.3%;
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 2%;
+}
+#user_count{
+    background-color: rgb(236, 213, 226);
+    width: 5%;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.btn-primary{
+    margin-top: 2%;
+    margin-left: 80%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid red;
+    margin: 0.3% 2%;
+}
+
+nav h1 {
+    margin-left: 30%;
+}
+
+nav h5 {
+    margin: 1% 5%;
+}
+#multiCollapseExample1{
+    width: 80%;
+    margin-top: 0.5%;
+    margin-left: 10%;
+    overflow-y: auto;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 4px;
+
+}
+
+.container {
+    height: 60vh;
+    background-image: linear-gradient(to bottom right, rgb(223, 45, 45), rgb(36, 115, 235));
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin-top: 2%;
+    margin-left: 10%;
+    overflow-y: auto;
+}
+
+.message {
+    border-radius: 13px;
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.left {
+    width: 30%;
+    margin-left: 0.5%;
+    background-color: rgb(224, 231, 238);
+}
+
+.right {
+    background-color: aliceblue;
+    width: 30%;
+    margin-left: 67.5%;
+}
+.status{
+    background: rgb(240, 237, 236);
+    width: max-content;
+    margin:1% auto;
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+}
+#Uname{
+    background-image: linear-gradient(to right, #e32890ad , #b2e0e73d);
+    font-size: 1.2rem;
+    font-family: cursive;
+
+}
+.status p{
+    margin-bottom: 0;
+}
+.sendbox{
+    margin-top: 0.2%;
+    margin-left: 10%;
+}
+#message{
+    width: 80%;
+    padding: 5px;
+    border-radius: 8px;
+    font-size:1.2rem;
+    font-family: cursive;
+}
+#btn{
+    background: cornflowerblue;
+    border: none;
+    padding: 7px;
+    border-radius: 8px;
+    margin-left: 1%;
+    width: 7%;
+}
